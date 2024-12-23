@@ -1,0 +1,40 @@
+.disponivel{
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.indisponivel{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.situacao{
+    color: white;
+    text-align: center;
+}
+
+.status-da-entrega{
+    color: white;
+    text-align: center;
+}
+
+.EM_ATRASO{
+    color: red;
+    font-weight: bold;
+}
+
+.EM_DIA{
+    color: green;
+    font-weight: bold;
+}
+
+.nome-do-responsavel{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}

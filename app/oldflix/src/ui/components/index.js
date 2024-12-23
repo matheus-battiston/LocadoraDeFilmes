@@ -1,0 +1,11 @@
+export { Toastr } from './toastr/toastr.component';
+export { Background } from './Background/background.component';
+export { Conteudo } from './Conteudo/conteudo.component';
+export { Header } from './Header/header.component';
+export { ModalDetalhe } from './modal-detalhe/modal-detalhe.component';
+export { Botao } from './botao/botao.component';
+export { InfosDoFilme } from './infos-do-filme/infos-do-filme.component';
+export { PosterEDetalhes } from './poster-e-detalhes/poster-e-detalhes.component';
+export { FormAluguel } from './form-aluguel/form-aluguel.component';
+export { ContainerConteudo } from './container-conteudo/container-conteudo.component';
+export { FormEditarIncluirFilme } from './form-editar-incluir-filme.js/form-editar-incluir-filme.component';

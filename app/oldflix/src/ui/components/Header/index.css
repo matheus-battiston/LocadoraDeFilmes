@@ -1,0 +1,67 @@
+.estilo-header{
+    background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+    height: 68px;
+    background-color: rgb(20,20,20);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.label-header{
+    color: white;
+    font-weight: bold;
+}
+
+.label-header{
+    cursor: pointer;
+}
+
+.ativa{
+    text-decoration: none;
+    color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nao-ativa{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo{
+    height: 30px;
+    width: auto;
+}
+
+.espaco-botoes{
+
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.container-header{
+    width: 100%;
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen  and (max-width: 1000px){
+    .espaco-botoes{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width : 600px) {
+    .espaco-botoes{
+        width: 70%;
+    }
+}
+

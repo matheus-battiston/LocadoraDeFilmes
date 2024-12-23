@@ -1,0 +1,22 @@
+.infos-do-filme{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-do-filme{
+    text-align: center;
+    color: white;
+}
+
+.sinopse-filme{
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.botoes-de-acoes{
+    display: flex;
+    justify-content: space-around;
+}

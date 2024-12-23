@@ -1,0 +1,59 @@
+.title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.form-adicionar-filme{
+    width: 100%;
+}
+
+.label-form{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.estilo-do-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilo-input{
+    margin-top: 10px;
+    color: white;
+    padding-left: 30px;
+    font-size: 20px;
+    border: 2px solid grey;
+    background-color: rgb(20,20,20);
+    height: 30px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+
+.descricao{
+    height: 150px;
+    overflow-wrap: break-word;
+}
+
+.espaco-select{
+    margin-top: 20px;
+    background-color: rgb(20,20,20);
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    height: 30px;
+}
+
+
+@media screen and (max-width: 600px){
+    .estilo-input{
+        width: 80%;
+    }
+    
+}

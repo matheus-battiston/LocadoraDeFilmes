@@ -1,0 +1,13 @@
+.estilo-botao{
+    font-size: 20px;
+    margin: 10px;
+    width: 100px;
+}
+
+.estilo-botao:disabled{
+    cursor:not-allowed;
+}
+
+.estilo-botao:enabled:hover{
+    cursor: pointer;
+}
