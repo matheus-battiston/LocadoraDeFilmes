@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/crepet
+    username: crepet
+    password: crepet
+
+server:
+  error:
+    include-message: always
